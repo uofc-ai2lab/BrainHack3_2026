@@ -65,32 +65,6 @@ body {
   border-bottom: 4px solid var(--uc-gold);
 }
 
-.logo {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-
-  font-weight: 800;
-}
-
-.logo-mark {
-  width: 38px;
-  height: 38px;
-
-  border-radius: 50%;
-
-  background: var(--uc-red);
-
-  color: #ffffff;
-
-  display: grid;
-  place-items: center;
-
-  font-size: 0.9rem;
-
-  border: 2px solid var(--uc-gold);
-}
-
 .nav-links {
   display: flex;
   gap: 22px;
