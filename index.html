@@ -1,186 +1,603 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>São Paulo – Alberta BrainHack 3.0</title>
+
   <link rel="stylesheet" href="style.css" />
 </head>
 
-  
 <body>
+
+  <!-- HEADER -->
   <header class="site-header">
+
     <div class="logo">
       <span class="logo-mark">BH3</span>
-      <span>São Paulo – Alberta BrainHack 3.0</span>
+
+      <span
+        data-en="São Paulo – Alberta BrainHack 3.0"
+        data-pt="São Paulo – Alberta BrainHack 3.0"
+      >
+        São Paulo – Alberta BrainHack 3.0
+      </span>
     </div>
 
     <nav class="nav-links">
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#schedule">Schedule</a>
-      <a href="#speakers">Speakers</a>
-      <a href="#hackathon">Hackathon</a>
-      <a href="#contact">Contact</a>
+
+      <a href="#home"
+         data-en="Home"
+         data-pt="Início">
+         Home
+      </a>
+
+      <a href="#about"
+         data-en="About"
+         data-pt="Sobre">
+         About
+      </a>
+
+      <a href="#schedule"
+         data-en="Schedule"
+         data-pt="Programação">
+         Schedule
+      </a>
+
+      <a href="#speakers"
+         data-en="Speakers"
+         data-pt="Palestrantes">
+         Speakers
+      </a>
+
+      <a href="#hackathon"
+         data-en="Hackathon"
+         data-pt="Hackathon">
+         Hackathon
+      </a>
+
+      <a href="#contact"
+         data-en="Contact"
+         data-pt="Contato">
+         Contact
+      </a>
+
     </nav>
 
-    <a class="nav-button" href="#register">Register</a>
+    <div class="header-actions">
+
+      <!-- LANGUAGE SWITCH -->
+      <div class="language-switch">
+
+        <button id="btn-en"
+                onclick="setLanguage('en')">
+          EN
+        </button>
+
+        <button id="btn-pt"
+                onclick="setLanguage('pt')">
+          PT-BR
+        </button>
+
+      </div>
+
+      <a class="nav-button"
+         href="#register"
+         data-en="Register"
+         data-pt="Inscreva-se">
+         Register
+      </a>
+
+    </div>
+
   </header>
 
+  <!-- MAIN -->
   <main>
+
+    <!-- HERO -->
     <section id="home" class="hero">
+
       <div class="hero-text">
-        <p class="eyebrow">Workshop • Hackathon • Presentations • Keynotes</p>
-        <h1>BrainHack Conference</h1>
-        <h2>Innovate. Collaborate. Impact.</h2>
-        <p>
+
+        <p
+          class="eyebrow"
+          data-en="Workshop • Hackathon • Presentations • Keynotes"
+          data-pt="Workshop • Hackathon • Apresentações • Palestras"
+        >
+          Workshop • Hackathon • Presentations • Keynotes
+        </p>
+
+        <h1
+          data-en="BrainHack Conference"
+          data-pt="Conferência BrainHack"
+        >
+          BrainHack Conference
+        </h1>
+
+        <h2
+          data-en="Innovate. Collaborate. Impact."
+          data-pt="Inove. Colabore. Cause impacto."
+        >
+          Innovate. Collaborate. Impact.
+        </h2>
+
+        <p
+          data-en="Join researchers, students, developers, and clinicians for a collaborative event focused on neuroscience, AI, open science, and brain-inspired technology."
+          data-pt="Junte-se a pesquisadores, estudantes, desenvolvedores e profissionais clínicos em um evento colaborativo focado em neurociência, inteligência artificial, ciência aberta e tecnologia inspirada no cérebro."
+        >
           Join researchers, students, developers, and clinicians for a collaborative
           event focused on neuroscience, AI, open science, and brain-inspired technology.
         </p>
 
         <div class="hero-actions">
-          <a href="#register" class="primary-button">Register Now</a>
-          <a href="#about" class="secondary-button">Learn More</a>
+
+          <a
+            href="#register"
+            class="primary-button"
+            data-en="Register Now"
+            data-pt="Inscreva-se Agora"
+          >
+            Register Now
+          </a>
+
+          <a
+            href="#about"
+            class="secondary-button"
+            data-en="Learn More"
+            data-pt="Saiba Mais"
+          >
+            Learn More
+          </a>
+
         </div>
+
       </div>
 
+      <!-- HERO VISUAL -->
       <div class="hero-visual">
+
         <div class="brain-card">
-          <div class="brain">🧠</div>
-          <p>Ideas, tools, and collaboration for brain-inspired innovation.</p>
+
+          <!-- CHANGE THIS LATER -->
+          <div class="visual-icon">
+            BH3
+          </div>
+
+          <p
+            data-en="Ideas, tools, and collaboration for brain-inspired innovation."
+            data-pt="Ideias, ferramentas e colaboração para inovação inspirada no cérebro."
+          >
+            Ideas, tools, and collaboration for brain-inspired innovation.
+          </p>
+
         </div>
+
       </div>
+
     </section>
 
+    <!-- ABOUT -->
     <section id="about" class="section split-section">
-      <div class="section-icon">⚡</div>
+
+      <div class="section-icon">
+        ⚡
+      </div>
+
       <div>
-        <p class="section-label">About the Event</p>
-        <h2>Connect, learn, and build together</h2>
-        <p>
+
+        <p
+          class="section-label"
+          data-en="About the Event"
+          data-pt="Sobre o Evento"
+        >
+          About the Event
+        </p>
+
+        <h2
+          data-en="Connect, learn, and build together"
+          data-pt="Conecte-se, aprenda e construa em colaboração"
+        >
+          Connect, learn, and build together
+        </h2>
+
+        <p
+          data-en="BrainHack brings together a community of innovators to explore new ideas, share tools, learn practical skills, and build solutions through hands-on collaboration."
+          data-pt="O BrainHack reúne uma comunidade de inovadores para explorar novas ideias, compartilhar ferramentas, aprender habilidades práticas e construir soluções por meio da colaboração."
+        >
           BrainHack brings together a community of innovators to explore new ideas,
           share tools, learn practical skills, and build solutions through hands-on
           collaboration.
         </p>
+
       </div>
+
     </section>
 
+    <!-- EVENT HIGHLIGHTS -->
     <section class="section">
-      <p class="section-label">What to Expect</p>
-      <h2>Event Highlights</h2>
+
+      <p
+        class="section-label"
+        data-en="What to Expect"
+        data-pt="O que Esperar"
+      >
+        What to Expect
+      </p>
+
+      <h2
+        data-en="Event Highlights"
+        data-pt="Destaques do Evento"
+      >
+        Event Highlights
+      </h2>
 
       <div class="cards">
+
         <article class="card">
-          <div class="card-icon">🛠️</div>
-          <h3>Workshop</h3>
-          <p>Hands-on sessions and practical training.</p>
+
+          <div class="card-icon">
+            🛠️
+          </div>
+
+          <h3
+            data-en="Workshop"
+            data-pt="Workshop">
+            Workshop
+          </h3>
+
+          <p
+            data-en="Hands-on sessions and practical training."
+            data-pt="Sessões práticas e treinamento aplicado."
+          >
+            Hands-on sessions and practical training.
+          </p>
+
         </article>
 
         <article class="card">
-          <div class="card-icon">💡</div>
-          <h3>Hackathon</h3>
-          <p>Collaborate and build innovative solutions.</p>
+
+          <div class="card-icon">
+            💡
+          </div>
+
+          <h3
+            data-en="Hackathon"
+            data-pt="Hackathon">
+            Hackathon
+          </h3>
+
+          <p
+            data-en="Collaborate and build innovative solutions."
+            data-pt="Colabore e desenvolva soluções inovadoras."
+          >
+            Collaborate and build innovative solutions.
+          </p>
+
         </article>
 
         <article class="card">
-          <div class="card-icon">🎤</div>
-          <h3>Presentations</h3>
-          <p>Share research, tools, and project ideas.</p>
+
+          <div class="card-icon">
+            🎤
+          </div>
+
+          <h3
+            data-en="Presentations"
+            data-pt="Apresentações">
+            Presentations
+          </h3>
+
+          <p
+            data-en="Share research, tools, and project ideas."
+            data-pt="Compartilhe pesquisas, ferramentas e ideias de projetos."
+          >
+            Share research, tools, and project ideas.
+          </p>
+
         </article>
 
         <article class="card">
-          <div class="card-icon">🌟</div>
-          <h3>Keynote Speaker</h3>
-          <p>Gain insights from experts and invited speakers.</p>
+
+          <div class="card-icon">
+            🌟
+          </div>
+
+          <h3
+            data-en="Keynote Speaker"
+            data-pt="Palestrante Principal">
+            Keynote Speaker
+          </h3>
+
+          <p
+            data-en="Gain insights from experts and invited speakers."
+            data-pt="Obtenha insights de especialistas e palestrantes convidados."
+          >
+            Gain insights from experts and invited speakers.
+          </p>
+
         </article>
+
       </div>
+
     </section>
 
-    <!--
+    <!-- SCHEDULE -->
     <section id="schedule" class="section schedule-section">
-      <p class="section-label">Schedule</p>
-      <h2>Upcoming Program</h2>
+
+      <p class="section-label"
+         data-en="Schedule"
+         data-pt="Programação">
+         Schedule
+      </p>
+
+      <h2
+        data-en="Upcoming Program"
+        data-pt="Programação do Evento">
+        Upcoming Program
+      </h2>
 
       <div class="schedule-list">
+
         <div class="schedule-item">
-          <span>Day 1</span>
-          <strong>Opening Session & Keynote</strong>
+
+          <span
+            data-en="Day 1"
+            data-pt="Dia 1">
+            Day 1
+          </span>
+
+          <strong
+            data-en="Opening Session & Keynote"
+            data-pt="Sessão de Abertura e Palestra Principal">
+            Opening Session & Keynote
+          </strong>
+
           <p>9:00 AM – 11:00 AM</p>
+
         </div>
 
         <div class="schedule-item">
-          <span>Day 1</span>
-          <strong>Technical Workshop</strong>
+
+          <span
+            data-en="Day 1"
+            data-pt="Dia 1">
+            Day 1
+          </span>
+
+          <strong
+            data-en="Technical Workshop"
+            data-pt="Workshop Técnico">
+            Technical Workshop
+          </strong>
+
           <p>1:00 PM – 4:00 PM</p>
+
         </div>
 
         <div class="schedule-item">
-          <span>Day 2</span>
-          <strong>Hackathon Kickoff</strong>
+
+          <span
+            data-en="Day 2"
+            data-pt="Dia 2">
+            Day 2
+          </span>
+
+          <strong
+            data-en="Hackathon Kickoff"
+            data-pt="Início do Hackathon">
+            Hackathon Kickoff
+          </strong>
+
           <p>10:00 AM – 5:00 PM</p>
+
         </div>
 
-        <div class="schedule-item">
-          <span>Day 3</span>
-          <strong>Final Presentations</strong>
-          <p>2:00 PM – 4:00 PM</p>
-        </div>
       </div>
+
     </section>
 
+    <!-- SPEAKERS -->
     <section id="speakers" class="section">
-      <p class="section-label">Speakers</p>
-      <h2>Featured Speakers</h2>
+
+      <p
+        class="section-label"
+        data-en="Speakers"
+        data-pt="Palestrantes">
+        Speakers
+      </p>
+
+      <h2
+        data-en="Featured Speakers"
+        data-pt="Palestrantes Convidados">
+        Featured Speakers
+      </h2>
 
       <div class="speaker-grid">
+
         <article class="speaker-card">
-          <div class="avatar">JS</div>
+
+          <div class="avatar">
+            JS
+          </div>
+
           <h3>Dr. Jane Smith</h3>
-          <p>Neuroscience & AI Researcher</p>
+
+          <p
+            data-en="Neuroscience & AI Researcher"
+            data-pt="Pesquisadora em Neurociência e IA">
+            Neuroscience & AI Researcher
+          </p>
+
         </article>
 
         <article class="speaker-card">
-          <div class="avatar">AK</div>
+
+          <div class="avatar">
+            AK
+          </div>
+
           <h3>Dr. Alex Khan</h3>
-          <p>Open Science Developer</p>
+
+          <p
+            data-en="Open Science Developer"
+            data-pt="Desenvolvedor de Ciência Aberta">
+            Open Science Developer
+          </p>
+
         </article>
 
-        <article class="speaker-card">
-          <div class="avatar">ML</div>
-          <h3>Dr. Maria Lee</h3>
-          <p>Medical Imaging Scientist</p>
-        </article>
       </div>
+
     </section>
 
+    <!-- HACKATHON -->
     <section id="hackathon" class="section callout">
+
       <div>
-        <p class="section-label">Hackathon</p>
-        <h2>Build something meaningful</h2>
-        <p>
+
+        <p
+          class="section-label"
+          data-en="Hackathon"
+          data-pt="Hackathon">
+          Hackathon
+        </p>
+
+        <h2
+          data-en="Build something meaningful"
+          data-pt="Construa algo significativo">
+          Build something meaningful
+        </h2>
+
+        <p
+          data-en="Form a team, choose a challenge, and work together to create a prototype, analysis tool, visualization, or research idea."
+          data-pt="Forme uma equipe, escolha um desafio e trabalhe em conjunto para criar um protótipo, ferramenta de análise, visualização ou ideia de pesquisa."
+        >
           Form a team, choose a challenge, and work together to create a prototype,
           analysis tool, visualization, or research idea.
         </p>
+
       </div>
-      <a href="#register" class="primary-button light-button">Join the Hackathon</a>
+
+      <a
+        href="#register"
+        class="primary-button light-button"
+        data-en="Join the Hackathon"
+        data-pt="Participe do Hackathon"
+      >
+        Join the Hackathon
+      </a>
+
     </section>
 
+    <!-- REGISTER -->
     <section id="register" class="section register-section">
-      <p class="section-label">Registration</p>
-      <h2>Join us and make an impact</h2>
-      <p>
+
+      <p
+        class="section-label"
+        data-en="Registration"
+        data-pt="Inscrição"
+      >
+        Registration
+      </p>
+
+      <h2
+        data-en="Join us and make an impact"
+        data-pt="Participe e cause impacto"
+      >
+        Join us and make an impact
+      </h2>
+
+      <p
+        data-en="Add registration details here. You can link this button to a Google Form, Eventbrite page, or university registration form."
+        data-pt="Adicione aqui os detalhes de inscrição. Você pode vincular este botão a um Google Form, Eventbrite ou formulário da universidade."
+      >
         Add registration details here. You can link this button to a Google Form,
         Eventbrite page, or university registration form.
       </p>
-      <a href="#" class="primary-button">Registration Link</a>
+
+      <a
+        href="#"
+        class="primary-button"
+        data-en="Registration Link"
+        data-pt="Link de Inscrição"
+      >
+        Registration Link
+      </a>
+
     </section>
+
   </main>
 
+  <!-- FOOTER -->
   <footer id="contact" class="site-footer">
-    <p>© 2026 BrainHack 3. All rights reserved.</p>
-    <p>Email:</p>
+
+    <p
+      data-en="© 2026 BrainHack 3. All rights reserved."
+      data-pt="© 2026 BrainHack 3. Todos os direitos reservados."
+    >
+      © 2026 BrainHack 3. All rights reserved.
+    </p>
+
+    <p
+      data-en="Email:"
+      data-pt="E-mail:"
+    >
+      Email:
+    </p>
+
   </footer>
-  -->
+
+  <!-- LANGUAGE SWITCH SCRIPT -->
+  <script>
+
+    function setLanguage(lang) {
+
+      document.documentElement.lang =
+        lang === "pt" ? "pt-BR" : "en";
+
+      document
+        .querySelectorAll("[data-en]")
+        .forEach(function(element) {
+
+          const translatedText =
+            element.getAttribute("data-" + lang);
+
+          if (translatedText) {
+            element.innerHTML = translatedText;
+          }
+
+        });
+
+      localStorage.setItem(
+        "selectedLanguage",
+        lang
+      );
+
+      document
+        .getElementById("btn-en")
+        .classList.toggle(
+          "active",
+          lang === "en"
+        );
+
+      document
+        .getElementById("btn-pt")
+        .classList.toggle(
+          "active",
+          lang === "pt"
+        );
+    }
+
+    const savedLanguage =
+      localStorage.getItem("selectedLanguage")
+      || "en";
+
+    setLanguage(savedLanguage);
+
+  </script>
 
 </body>
 </html>
