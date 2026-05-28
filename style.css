@@ -34,11 +34,8 @@ body {
       #fffdf7 0%,
       var(--bg) 100%
     );
-
   line-height: 1.6;
 }
-
-/* HEADER */
 
 .site-header {
   width: min(1180px, 92%);
@@ -61,8 +58,33 @@ body {
   z-index: 100;
 
   box-shadow: 0 14px 32px rgba(0,0,0,0.18);
-
   border-bottom: 4px solid var(--uc-gold);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  font-weight: 800;
+}
+
+.logo-mark {
+  width: 38px;
+  height: 38px;
+
+  border-radius: 50%;
+
+  background: var(--uc-red);
+
+  color: #ffffff;
+
+  display: grid;
+  place-items: center;
+
+  font-size: 0.9rem;
+
+  border: 2px solid var(--uc-gold);
 }
 
 .nav-links {
