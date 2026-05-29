@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+  
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,7 +10,6 @@
 
 
 <body>
-  <!-- HEADER -->
   <header class="site-header">
     <div class="logo">
       <span
@@ -28,40 +27,25 @@
       <a href="#speakers" data-en="Speakers" data-pt="Palestrantes">Speakers</a>
       <a href="#hackathon" data-en="Hackathon" data-pt="Hackathon">Hackathon</a>
     
-     <div class="previous-events-container">
+      <div class="previous-events-container">
+        <button
+          class="previous-events-link"
+          onclick="togglePreviousEvents()"
+          data-en="Previous Events"
+          data-pt="Eventos Anteriores"
+        >
+          Previous Events
+        </button>
 
-      <button
-        class="previous-events-link"
-        onclick="togglePreviousEvents()"
-        data-en="Previous Events"
-        data-pt="Eventos Anteriores"
-      >
-        Previous Events
-      </button>
-
-      <div
-        id="previousEventsList"
-        class="previous-events-list"
-      >
-
-        <a href="https://example.com/event-2024"
-           target="_blank">
-           BrainHack 2024
-        </a>
-
-        <a href="https://example.com/event-2023"
-           target="_blank">
-           BrainHack 2023
-        </a>
-
-        <a href="https://example.com/event-2022"
-           target="_blank">
-           BrainHack 2022
-        </a>
-
+        <div
+          id="previousEventsList"
+          class="previous-events-list"
+        >
+          <a href="https://example.com/event-2024" target="_blank">BrainHack 2.0</a>
+          <a href="https://example.com/event-2023" target="_blank">BrainHack 1.0</a>
+        </div>
       </div>
-    </div>
-    
+      
       <a href="#contact" data-en="Contact" data-pt="Contato">Contact</a>
     </nav>
 
