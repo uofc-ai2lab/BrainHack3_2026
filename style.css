@@ -722,55 +722,67 @@ main {
   .visual-icon {
     width: 100px;
     height: 100px;
-
     font-size: 1.8rem;
   }
-
-  .dropdown {
+  .previous-events-container {
   position: relative;
 }
 
-.dropdown-button {
+.previous-events-link {
   background: none;
   border: none;
   color: #ffffff;
   font-size: 0.92rem;
+  opacity: 0.9;
   cursor: pointer;
-  font-weight: 600;
+  font-family: inherit;
+  padding: 0;
 }
 
-.dropdown-button:hover {
+.previous-events-link:hover {
+  opacity: 1;
   color: var(--uc-gold);
 }
 
-.dropdown-content {
+.previous-events-list {
   display: none;
+
   position: absolute;
-  top: 32px;
+  top: 35px;
   left: 0;
-  min-width: 190px;
+
+  min-width: 220px;
+
   background: #ffffff;
+
   border-radius: 12px;
+
   box-shadow: 0 12px 28px rgba(0,0,0,0.16);
+
   padding: 8px;
-  z-index: 200;
+
+  z-index: 999;
 }
 
-.dropdown-content a {
+.previous-events-list.show {
+  display: block;
+}
+
+.previous-events-list a {
   display: block;
   color: #111111;
-  padding: 10px 12px;
   text-decoration: none;
+  padding: 10px 12px;
   border-radius: 8px;
   white-space: nowrap;
 }
 
-.dropdown-content a:hover {
+.previous-events-list a:hover {
   background: #fff3bf;
-  color: #d6001c;
+  color: var(--uc-red);
 }
 
-.dropdown:hover .dropdown-content {
-  display: block;
-}
+
+
+
 }
