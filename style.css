@@ -728,8 +728,9 @@ main {
 
 
 
+  
 
-  .nav-item-with-panel {
+.nav-item-with-panel {
   position: relative;
   display: inline-block;
 }
