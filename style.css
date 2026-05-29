@@ -233,11 +233,11 @@ main {
 
 .eyebrow,
 .section-label {
-  color: var(--uc-red);
+  color: var(--uc-red-dark);
   font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  font-size: 0.82rem;
+  font-size: 1.1rem;
   margin-bottom: 10px;
 }
 
