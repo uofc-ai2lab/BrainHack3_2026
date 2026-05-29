@@ -271,7 +271,7 @@ main {
   line-height: 1.05;
   margin-bottom: 36px;
   color: var(--ink);
-  white-space: nowrap;
+  max-width: 100%;
 }
 
 .hero-two-column {
@@ -318,8 +318,8 @@ main {
   transform: translateY(-2px);
 }
 
-/* HERO EVENT INFO CARD */
 
+/* HERO EVENT INFO CARD */
 .hero-info-card {
   background: rgba(255,255,255,0.88);
   border: 1px solid #eadfc0;
@@ -384,26 +384,18 @@ main {
 
 
 /* SECTIONS */
-
 .section {
   background: var(--card);
-
   border: 1px solid var(--line);
-
   border-radius: 22px;
-
   padding: 46px;
-
   margin-bottom: 24px;
-
   box-shadow: 0 8px 30px rgba(0,0,0,0.055);
 }
 
 .section h2 {
   font-size: clamp(1.8rem, 3vw, 2.6rem);
-
   line-height: 1.2;
-
   margin-bottom: 16px;
 }
 
@@ -413,114 +405,88 @@ main {
 
 .split-section {
   display: grid;
-
   grid-template-columns: 90px 1fr;
-
   align-items: center;
-
   gap: 28px;
 }
 
 .section-icon {
   width: 80px;
   height: 80px;
-
   border-radius: 20px;
-
   display: grid;
   place-items: center;
-
   font-size: 2rem;
-
   background: var(--uc-gold-soft);
-
   border: 1px solid #ead174;
 }
 
 /* CARDS */
-
 .cards {
   margin-top: 28px;
-
   display: grid;
-
   grid-template-columns: repeat(4, 1fr);
-
   gap: 18px;
 }
 
 .card,
 .speaker-card {
   padding: 28px 22px;
-
   border: 1px solid var(--line);
-
   border-radius: 18px;
-
   text-align: center;
-
   background: #fffdf7;
-
   transition: 0.2s ease;
-
   border-top: 5px solid var(--uc-gold);
 }
 
 .card:hover,
 .speaker-card:hover {
   transform: translateY(-5px);
-
   box-shadow: 0 12px 30px rgba(214,0,28,0.12);
-
   border-top-color: var(--uc-red);
 }
 
 .card-icon {
   font-size: 2rem;
-
   margin-bottom: 12px;
 }
 
 .card h3,
 .speaker-card h3 {
   margin-bottom: 8px;
-
   color: var(--ink);
 }
 
-/* SCHEDULE */
 
+
+
+
+
+
+
+
+/* SCHEDULE */
 .schedule-list {
   margin-top: 26px;
-
   display: grid;
-
   gap: 14px;
 }
 
 .schedule-item {
   padding: 20px;
-
   background: #fffdf7;
-
   border: 1px solid var(--line);
-
   border-left: 6px solid var(--uc-red);
-
   border-radius: 16px;
-
   display: grid;
-
   grid-template-columns: 90px 1fr auto;
-
   gap: 16px;
-
   align-items: center;
 }
 
 .schedule-item span {
   color: var(--uc-red);
-
   font-weight: 900;
 }
 
@@ -533,41 +499,29 @@ main {
 
 
 /* SPEAKERS */
-
 .speaker-grid {
   margin-top: 28px;
-
   display: grid;
-
   grid-template-columns: repeat(3, 1fr);
-
   gap: 18px;
 }
 
 .avatar {
   width: 72px;
   height: 72px;
-
   border-radius: 50%;
-
   background:
     linear-gradient(
       135deg,
       var(--uc-red),
       var(--uc-gold)
     );
-
   color: #ffffff;
-
   font-weight: 900;
-
   display: grid;
   place-items: center;
-
   margin: 0 auto 16px;
-
   border: 3px solid #ffffff;
-
   box-shadow: 0 8px 18px rgba(214,0,28,0.22);
 }
 
@@ -584,29 +538,21 @@ main {
 
 
 /* CALLOUT */
-
 .callout {
   display: flex;
-
   justify-content: space-between;
-
   align-items: center;
-
   gap: 30px;
-
   background:
     radial-gradient(circle at 88% 50%,
     rgba(255,205,0,0.32),
     transparent 24%),
-
     linear-gradient(
       135deg,
       #111111,
       var(--uc-red-dark)
     );
-
   color: #ffffff;
-
   border-bottom: 6px solid var(--uc-gold);
 }
 
@@ -625,15 +571,12 @@ main {
 
 .light-button {
   background: var(--uc-gold);
-
   color: #111111;
-
   box-shadow: none;
 }
 
 .light-button:hover {
   background: #e4b800;
-
   color: #111111;
 }
 
@@ -650,10 +593,8 @@ main {
 
 
 /* REGISTER */
-
 .register-section {
   text-align: center;
-
   background:
     linear-gradient(
       180deg,
@@ -664,7 +605,6 @@ main {
 
 .register-section p {
   max-width: 700px;
-
   margin: 0 auto 24px;
 }
 
@@ -677,22 +617,14 @@ main {
 
 
 /* FOOTER */
-
 .site-footer {
   width: min(1180px, 92%);
-
   margin: 24px auto 40px;
-
   padding: 28px;
-
   text-align: center;
-
   color: #ffffff;
-
   background: #111111;
-
   border-radius: 18px;
-
   border-top: 5px solid var(--uc-red);
 }
 
