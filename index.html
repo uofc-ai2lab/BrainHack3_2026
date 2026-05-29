@@ -28,17 +28,39 @@
       <a href="#speakers" data-en="Speakers" data-pt="Palestrantes">Speakers</a>
       <a href="#hackathon" data-en="Hackathon" data-pt="Hackathon">Hackathon</a>
     
-      <div class="dropdown">
-        <button class="dropdown-button" data-en="Previous Events" data-pt="Eventos Anteriores">
-          Previous Events
-        </button>
-    
-        <div class="dropdown-content">
-          <a href="https://example.com/event-2023" target="_blank">BrainHack 2023</a>
-          <a href="https://example.com/event-2022" target="_blank">BrainHack 2022</a>
-          <a href="https://example.com/event-2021" target="_blank">BrainHack 2021</a>
-        </div>
+     <div class="previous-events-container">
+
+      <button
+        class="previous-events-link"
+        onclick="togglePreviousEvents()"
+        data-en="Previous Events"
+        data-pt="Eventos Anteriores"
+      >
+        Previous Events
+      </button>
+
+      <div
+        id="previousEventsList"
+        class="previous-events-list"
+      >
+
+        <a href="https://example.com/event-2024"
+           target="_blank">
+           BrainHack 2024
+        </a>
+
+        <a href="https://example.com/event-2023"
+           target="_blank">
+           BrainHack 2023
+        </a>
+
+        <a href="https://example.com/event-2022"
+           target="_blank">
+           BrainHack 2022
+        </a>
+
       </div>
+    </div>
     
       <a href="#contact" data-en="Contact" data-pt="Contato">Contact</a>
     </nav>
@@ -565,6 +587,32 @@
       || "en";
 
     setLanguage(savedLanguage);
+  </script>
+
+  <script>
+    function togglePreviousEvents() {
+    
+      document
+        .getElementById("previousEventsList")
+        .classList
+        .toggle("show");
+    }
+    document.addEventListener("click", function(event) {
+    
+      const container =
+        document.querySelector(".previous-events-container");
+    
+      const menu =
+        document.getElementById("previousEventsList");
+    
+      if (
+        container &&
+        !container.contains(event.target)
+      ) {
+        menu.classList.remove("show");
+      }
+    
+    });
   </script>
 
 </body>
