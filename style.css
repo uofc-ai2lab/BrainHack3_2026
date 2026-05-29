@@ -107,16 +107,27 @@ body {
   color: var(--uc-gold);
 }
 
-/* HEADER ACTIONS */
 
+
+
+
+
+
+
+/* HEADER ACTIONS */
 .header-actions {
   display: flex;
   align-items: center;
   gap: 12px;
 }
 
-/* LANGUAGE SWITCH */
 
+
+
+
+
+
+/* LANGUAGE SWITCH */
 .language-switch {
   display: flex;
   gap: 6px;
@@ -155,8 +166,17 @@ body {
   color: #111111;
 }
 
-/* BUTTONS */
 
+
+
+
+
+
+
+
+
+
+/* BUTTONS */
 .nav-button,
 .primary-button,
 .secondary-button {
@@ -188,8 +208,10 @@ body {
   transform: translateY(-2px);
 }
 
-/* MAIN */
 
+
+
+/* MAIN */
 main {
   width: min(1180px, 92%);
   margin: 0 auto;
