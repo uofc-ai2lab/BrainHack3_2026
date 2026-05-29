@@ -27,20 +27,17 @@
       <a href="#speakers" data-en="Speakers" data-pt="Palestrantes">Speakers</a>
       <a href="#hackathon" data-en="Hackathon" data-pt="Hackathon">Hackathon</a>
     
-      <div class="previous-events-container">
-        <button
-          class="previous-events-link"
+      <div class="nav-item-with-panel">
+        <a
+          href="javascript:void(0)"
           onclick="togglePreviousEvents()"
           data-en="Previous Events"
           data-pt="Eventos Anteriores"
         >
           Previous Events
-        </button>
-
-        <div
-          id="previousEventsList"
-          class="previous-events-list"
-        >
+        </a>
+      
+        <div id="previousEventsList" class="previous-events-panel">
           <a href="https://example.com/event-2024" target="_blank">BrainHack 2.0</a>
           <a href="https://example.com/event-2023" target="_blank">BrainHack 1.0</a>
         </div>
@@ -573,31 +570,7 @@
     setLanguage(savedLanguage);
   </script>
 
-  <script>
-    function togglePreviousEvents() {
-    
-      document
-        .getElementById("previousEventsList")
-        .classList
-        .toggle("show");
-    }
-    document.addEventListener("click", function(event) {
-    
-      const container =
-        document.querySelector(".previous-events-container");
-    
-      const menu =
-        document.getElementById("previousEventsList");
-    
-      if (
-        container &&
-        !container.contains(event.target)
-      ) {
-        menu.classList.remove("show");
-      }
-    
-    });
-  </script>
+  
 
 </body>
 </html>
