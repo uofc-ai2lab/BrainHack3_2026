@@ -203,6 +203,9 @@ body {
 
 
 
+
+
+
 /* MAIN */
 main {
   width: min(1180px, 92%);
@@ -267,11 +270,12 @@ main {
 
 .hero-title,
 .hero h1 {
-  font-size: clamp(2.5rem, 5vw, 4.5rem);
+  font-size: clamp(2.2rem, 4vw, 3.8rem);
   line-height: 1.05;
-  margin-bottom: 36px;
+  margin-bottom: 28px;
   color: var(--ink);
   max-width: 100%;
+  font-weight: 800:
 }
 
 .hero-two-column {
