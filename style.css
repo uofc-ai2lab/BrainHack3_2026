@@ -717,6 +717,42 @@ main {
 
 
 
+/* SUPPORTED BY */
+.supported-section {
+  text-align: center;
+}
+
+.supported-section h2 {
+  margin-bottom: 40px;
+}
+
+.supporter-logo-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.supporter-logo {
+  max-height: 90px;
+  max-width: 220px;
+  width: auto;
+  object-fit: contain;
+  transition: 0.25s ease;
+}
+
+.supporter-logo:hover {
+  transform: scale(1.05);
+}
+
+
+
+
+
+
+
 
 
 
