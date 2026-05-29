@@ -571,10 +571,30 @@
   </script>
 
   
+
   <script>
     function togglePreviousEvents() {
-      document.getElementById("previousEventsList").classList.toggle("show");
+      document
+        .getElementById("previousEventsList")
+        .classList
+        .toggle("show");
     }
+    
+    document.addEventListener("click", function(event) {
+    
+      const panel =
+        document.getElementById("previousEventsList");
+    
+      const container =
+        document.querySelector(".nav-item-with-panel");
+    
+      if (
+        container &&
+        !container.contains(event.target)
+      ) {
+        panel.classList.remove("show");
+      }
+    });
   </script>
 
   
