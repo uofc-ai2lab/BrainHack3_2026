@@ -181,30 +181,22 @@ body {
 .primary-button,
 .secondary-button {
   display: inline-block;
-
   text-decoration: none;
-
   border-radius: 10px;
-
   font-weight: 800;
-
   transition: 0.2s ease;
 }
 
 .nav-button {
   background: var(--uc-red);
-
   color: #ffffff;
-
   padding: 10px 16px;
-
   font-size: 0.9rem;
 }
 
 .nav-button:hover,
 .primary-button:hover {
   background: var(--uc-red-dark);
-
   transform: translateY(-2px);
 }
 
@@ -229,7 +221,6 @@ main {
   min-height: 580px;
   margin: 24px 0;
   padding: 70px 64px;
-
   background:
     radial-gradient(
       circle at 82% 24%,
@@ -242,12 +233,9 @@ main {
       #fff8dd 52%,
       #fff3f0 100%
     );
-
   border: 1px solid var(--line);
   border-radius: 24px;
-
   display: block;
-
   overflow: hidden;
   position: relative;
 }
@@ -257,10 +245,8 @@ main {
   position: absolute;
   left: 0;
   top: 0;
-
   width: 12px;
   height: 100%;
-
   background:
     linear-gradient(
       180deg,
@@ -281,7 +267,7 @@ main {
 
 .hero-title,
 .hero h1 {
-  font-size: clamp(2.6rem, 5vw, 4.8rem);
+  font-size: clamp(2.5rem, 5vw, 4.5rem);
   line-height: 1.05;
   margin-bottom: 36px;
   color: var(--ink);
