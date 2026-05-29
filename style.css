@@ -597,8 +597,8 @@ main {
   margin: 24px auto 40px;
   padding: 28px;
   text-align: center;
-  color: #ffffff;
-  background: #111111;
+  color: #111111;
+  background: #ffcd00;
   border-radius: 18px;
   border-top: 5px solid var(--uc-red);
 }
