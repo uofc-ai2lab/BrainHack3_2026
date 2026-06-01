@@ -72,10 +72,30 @@ body {
   border: 2px solid var(--uc-gold);
 }
 
+/*
 .nav-links {
   display: flex;
   gap: 22px;
   align-items: center;
+}
+*/
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 0;
+}
+
+.nav-links > * {
+  position: relative;
+  padding: 0 14px;
+}
+
+.nav-links > *:not(:last-child)::after {
+  content: "|";
+  position: absolute;
+  right: -2px;
+  color: rgba(255,255,255,0.4);
 }
 
 .nav-links a {
@@ -139,16 +159,6 @@ body {
   color: #111111;
 }
 
-
-
-
-
-
-
-
-
-
-
 /* BUTTONS */
 .nav-button,
 .primary-button,
@@ -179,16 +189,15 @@ body {
 
 
 
+
+
+
+
 /* MAIN */
 main {
   width: min(1180px, 92%);
   margin: 0 auto;
 }
-
-
-
-
-
 
 
 
