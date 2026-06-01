@@ -505,6 +505,15 @@ main {
   font-weight: 700;
 }
 
+.coming-soon-banner {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--uc-red);
+  letter-spacing: 0.02em;
+}
+
 
 
 
