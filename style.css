@@ -500,6 +500,11 @@ main {
   background: linear-gradient(180deg, #ffffff 0%, #fff9df 100%);
 }
 
+.registration-coming {
+  color: var(--uc-red);
+  font-weight: 700;
+}
+
 
 
 
