@@ -446,9 +446,16 @@ main {
 
 
 /* ABOUT GRID */
-.about-intro {
+/*.about-intro {
   max-width: 950px;
   margin-bottom: 32px;
+}*/
+
+.about-intro {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: var(--muted);
+  margin-bottom: 36px;
 }
 
 .about-grid {
