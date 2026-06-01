@@ -853,8 +853,8 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
-  gap: 40px;
+  flex-wrap: nowrap;
+  gap: 30px;
   margin-top: 20px;
 }
 
