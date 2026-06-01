@@ -454,7 +454,7 @@ main {
 .about-intro {
   font-size: 1.05rem;
   line-height: 1.8;
-  color: var(--muted);
+  color: #ffffff;
   margin-bottom: 36px;
 }
 
