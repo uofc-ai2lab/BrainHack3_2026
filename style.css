@@ -303,6 +303,8 @@ main {
 }
 
 
+
+
 /* HERO EVENT INFO CARD */
 .hero-info-card {
   background: rgba(255,255,255,0.88);
@@ -330,6 +332,13 @@ main {
 .info-item span {
   font-size: 1.3rem;
   min-width: 28px;
+}
+
+.info-item strong {
+  display: block;
+  font-weight: 800;
+  color: var(--ink);
+  margin-bottom: 4px;
 }
 
 .info-item p {
