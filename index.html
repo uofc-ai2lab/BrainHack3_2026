@@ -761,19 +761,14 @@
         lang
       );
 
-      document
-        .getElementById("btn-en")
-        .classList.toggle(
-          "active",
-          lang === "en"
-        );
+      document.getElementById("btn-en").classList.remove("active");
+      document.getElementById("btn-pt").classList.remove("active");
 
-      document
-        .getElementById("btn-pt")
-        .classList.toggle(
-          "active",
-          lang === "pt"
-        );
+      if (lang === "en") {
+        document.getElementById("btn-en").classList.add("active");
+      } else {
+        document.getElementById("btn-pt").classList.add("active");
+      }
     }
 
     const savedLanguage =
