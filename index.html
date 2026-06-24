@@ -756,11 +756,6 @@
 
         });
 
-      localStorage.setItem(
-        "selectedLanguage",
-        lang
-      );
-
       document.getElementById("btn-en").classList.remove("active");
       document.getElementById("btn-pt").classList.remove("active");
 
@@ -771,11 +766,7 @@
       }
     }
 
-    const savedLanguage =
-      localStorage.getItem("selectedLanguage")
-      || "pt";
-
-    setLanguage(savedLanguage);
+    setLanguage("pt");
   </script>
 
   
