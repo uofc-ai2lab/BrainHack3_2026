@@ -953,6 +953,19 @@ main {
     line-height: 1.35;
 }
 
+.committee-role {
+    margin: 6px 0 4px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--primary-color); /* or any accent color used on your website */
+}
+
+.committee-university {
+    margin: 0;
+    font-size: 0.85rem;
+    color: var(--text-light);
+}
+
 /* Tablet */
 @media (max-width: 768px) {
     .committee-grid {
