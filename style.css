@@ -339,10 +339,6 @@ main {
     animation:pulseGlow 2s infinite;
 }
 
-.limited-spots::before{
-    content:"🔥";
-}
-
 @keyframes pulseGlow{
     0%,100%{
         transform:scale(1);
