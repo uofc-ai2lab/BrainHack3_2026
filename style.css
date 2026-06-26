@@ -880,10 +880,7 @@ main {
 }
 
 
-/* ===================================================
-   LOCAL COMMITTEE
-=================================================== */
-
+/* LOCAL COMMITTEE */
 .committee-section {
     margin-top: 70px;
     text-align: center;
@@ -913,7 +910,7 @@ main {
 
 /* Compact cards */
 .committee-card {
-    width: 170px;
+    width: 200px;
     flex-shrink: 0;
 
     background: var(--card-bg);
@@ -963,7 +960,7 @@ main {
     }
 
     .committee-card {
-        width: 155px;
+        width: 180px;
         padding: 16px 12px;
     }
 
@@ -980,7 +977,7 @@ main {
     }
 
     .committee-card {
-        width: 140px;
+        width: 160px;
     }
 
     .committee-photo {
