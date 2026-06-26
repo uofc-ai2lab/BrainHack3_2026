@@ -878,6 +878,61 @@ main {
 }
 
 
+/* Local Committee */
+.committee-section {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.committee-section h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: var(--text-color);
+}
+
+.committee-description {
+    color: var(--text-light);
+    margin-bottom: 35px;
+}
+
+.committee-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 25px;
+}
+
+.committee-card {
+    background: var(--card-bg);
+    border-radius: 18px;
+    padding: 20px;
+    text-align: center;
+    transition: transform .3s ease, box-shadow .3s ease;
+}
+
+.committee-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(0,0,0,.12);
+}
+
+.committee-photo {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 12px;
+}
+
+.committee-card h4 {
+    margin-bottom: 6px;
+    font-size: 1.05rem;
+}
+
+.committee-card p {
+    color: var(--text-light);
+    font-size: 0.9rem;
+}
+
+
 
 
 
